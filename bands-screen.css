@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2? family = Josefin + Sans: wght @ 100; 300; 600 & family = Aberto + Sans: wght @ 300; 400; 700 & family = Titillium + Web: wght @ 200 & display = swap ');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background: rgb(37, 36, 36);
+    height: 8vh;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.title {
+    font-size: xx-large;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.fa-connectdevelop::before {
+    color: #F4511E;
+}
+
+button {
+    background-color: #F4511E;
+    color: #fff;
+    position: relative;
+    top: 35px;
+    left: 30px;
+    width: 11%;
+    padding: 5px;
+    max-width: 150px;
+    min-width: 100px;
+    border-radius: 15px;
+    font-size: 15px;
+    border: none;
+}
+
+.band {
+    background-color: #323232;
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 15px;
+    right: 15px;
+    width: 23%;
+    max-width: 312px;
+    min-width: 210px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+label {
+    position: absolute;
+    top: 7%;
+    left: 5%;
+}
+
+img {
+    position: absolute;
+    top: 55%;
+    transform: translate(0, -50%);
+    height: 70%;
+    width: 100%;
+}
+
+.icon {
+    position: relative;
+    top: -20px;
+    left: -20px;
+    transform: rotate(-45deg);
+    width: 40px;
+    height: 40px;
+}
+
+.fa-user-circle:before {
+    color: #F4511E;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+button:hover {
+    background-color: rgba(0, 191, 255, 0.103);
+    cursor: pointer;
+}
